@@ -1,5 +1,3 @@
-**Here is the cleaned, readable Markdown version in English (emojis removed):**
-
 ```markdown
 # Telegram-VoxoBot
 
