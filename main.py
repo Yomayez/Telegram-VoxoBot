@@ -37,7 +37,7 @@ async def menu_start(message: Message):
 
     await message.answer_photo(
         photo=START_PHOTO,
-        caption='Привет!\nЭто бот проекта <a href="https://vo-xo.com/"><b>Voxoria</b></a>',
+        caption='Привет!\nЭто неоффициальный бот проекта <a href="https://vo-xo.com/"><b>Voxoria</b></a>',
         parse_mode=ParseMode.HTML,
         reply_markup=builder.as_markup()
     )
@@ -79,7 +79,7 @@ async def menu_call(callback: types.CallbackQuery):
     await callback.message.delete()
     await callback.message.answer_photo(
         photo=START_PHOTO,
-        caption='Привет!\nЭто бот проекта <a href="https://vo-xo.com/"><b>Voxoria</b></a>',
+        caption='Привет!\nЭто неоффициальный бот проекта <a href="https://vo-xo.com/"><b>Voxoria</b></a>',
         parse_mode=ParseMode.HTML,
         reply_markup=builder.as_markup()
     )
